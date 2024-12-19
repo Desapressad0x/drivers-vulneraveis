@@ -1060,6 +1060,9 @@ int main() {
                 }
             }
         }
+
+	printf("Fim, pressione qualquer tecla para sair.");
+	getchar();
     } else {
         print_cor(VERMELHO, "! Erro ao enumerar os drivers.\n");
     }
